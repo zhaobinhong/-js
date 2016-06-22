@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+        input{
+            text-align: center;
+            width: 4em;
+            outline:none;
+            margin: 0 1em;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="tel" maxlength="4" placeholder="产" name="val1" id="val1">
+    -
+    <input type="tel" maxlength="4" placeholder="品" name="val2" id="val2">
+    -
+    <input type="tel" maxlength="4" placeholder="秘" name="val3" id="val3">
+    -
+    <input type="tel" maxlength="4" placeholder="钥" name="val4" id="val4">
+</div>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var val1 = document.getElementById("val1"), val2 = document.getElementById("val2"), val3 = document.getElementById("val3"), val4 = document.getElementById("val4");
+        var ary = [val1, val2, val3, val4];
+        val1.focus();
+        for (var i = 0; i < ary.length; i++) {
+            (function (i) {
+                ary[i].onkeyup = function () {
+                    if (getNext(this)){
+                        if (getNext(this).nodeType==1) {
+                            if (this.value.length > 3) {
+                                this.blur();
+                                getNext(this).focus();
+                                console.log(getNext(this))
+
+
+                            }
+                        }
+                    }
+
+                }
+            })(i);
+
+        }
+
+
+
+
+        function getNext(curEle) {
+            if (curEle.nextElementSibling) {
+                return curEle.nextElementSibling;
+            }
+        }
+    }
+</script>
+</body>
+</html>
