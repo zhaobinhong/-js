@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>js网页生成二维码插件qrcode </title>
+    <meta charset="utf-8"/>
+
+    <script src="js/qrcode.js"></script>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        #qrcode{
+            width: 96px;
+            height: 96px;
+            position: relative;
+            margin:50px auto;
+        }
+        button{
+            display: block;
+            width: 120px;
+            height: 45px;
+            background: #0cc;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 45px;
+            margin: auto;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            outline: none;
+        }
+        .nav{
+            width: 100px;
+            height: 50px;
+            margin: auto;
+        }
+        .nav a{
+            width: 45px;
+            height: 50px;
+            text-align: center;
+            display: block;
+            float: left;
+            line-height: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>通过js代码实现网页生成二维码</h1>
+<div id="qrcode"></div>
+
+<button id="send">点击生成二维码</button>
+
+<script>
+    window.onload =function(){
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            width : 96,//设置宽高
+            height : 96
+        });
+        thisURL = document.URL;
+
+        document.getElementById("send").onclick =function(){
+            qrcode.makeCode(thisURL);
+        }
+    }
+</script>
+
+<div style="text-align:center;margin:80px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+    <p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+</div>
+</body>
+</html>
