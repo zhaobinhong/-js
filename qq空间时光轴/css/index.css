@@ -1,0 +1,402 @@
+@charset "utf-8";
+body {
+    padding-top: 150px;
+    background: url("../img/qqBg1.png") center 0 no-repeat fixed;
+}
+template {
+    display: none;
+}
+nav {
+    opacity: 0.7;
+    z-index: 1000;
+}
+nav div.container div.navbar-header a {
+    line-height: 35px;
+}
+nav div.container div.navbar-header a i.logo {
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    background-image: url("../img/icon.png");
+}
+nav div.container ul li {
+    margin-right: 20px;
+}
+nav div.container ul li i {
+    display: inline-block;
+    background-image: url("../img/icon1.png");
+    width: 25px;
+    height: 25px;
+    margin-right: -15px;
+}
+nav div.container ul li i.ui-center {
+    background-position-x: 260px;
+    background-position-y: 225px;
+}
+nav div.container ul li i.ui-home {
+    background-position-x: 157px;
+    background-position-y: 199px;
+}
+nav div.container ul li i.ui-friends {
+    background-position-x: 260px;
+    background-position-y: 278px;
+}
+nav div.container ul li i.ui-apply {
+    background-position-x: 105px;
+    background-position-y: 304px;
+}
+nav div.container ul li i.ui-dress {
+    background-position-x: 155px;
+    background-position-y: 147px;
+}
+nav div.container ul li i.ui-music {
+    background-position-x: 161px;
+    background-position-y: 95px;
+    background-color: #D18B00;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #eee;
+}
+nav div.container ul li.one a {
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 18px;
+    font-weight: 600;
+    color: #EF9618;
+}
+nav div.container ul li.two a {
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 18px;
+    font-weight: 600;
+    color: #0986E2;
+}
+nav div.container ul li.three a {
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 18px;
+    font-weight: 600;
+    color: #E34200;
+}
+nav div.container ul li.four a {
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 18px;
+    font-weight: 600;
+    color: #00974A;
+}
+nav div.container ul li.five a {
+    display: inline-block;
+    line-height: 50px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 18px;
+    font-weight: 600;
+    color: #3E207A;
+}
+nav div.container ul li.six a.music-active {
+    display: inline-block;
+    background-image: url("../img/2-music-sonic.gif");
+    background-color: #D18B00;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+nav div.container ul li.seven {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav div.container ul li.seven span.search {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/search3.png");
+    background-repeat: no-repeat;
+    left: 85%;
+    top: 10px;
+}
+nav div.container ul li.eight {
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3E207A;
+    margin-left: 30px;
+}
+main aside {
+    border-right: 3px solid #796B69;
+    display: inline-block;
+    position: absolute;
+    padding-right: 10px;
+    margin-top: 160px;
+    margin-left: 20px;
+    opacity: .5;
+}
+main aside dl dt {
+    text-align: right;
+}
+main aside dl.on dt {
+    padding-right: 8px;
+    border-right: 3px solid #DCAB4A;
+    margin-right: -13px;
+    color: #DCAB4A;
+}
+main aside dl dd {
+    display: none;
+    text-align: right;
+    margin-right: -13px;
+    border-right: 3px solid #796B69;
+    padding-right: 5px;
+}
+main aside dl dd:hover,
+main aside dl dd.active {
+    border-right: 3px solid blue;
+    margin-right: -12.5px;
+    color: blue;
+}
+main aside dl.on dd {
+    display: block;
+}
+main section {
+    margin-left: 150px;
+    border-left: 5px solid #c8c8c8;
+    padding-left: 40px;
+}
+main section:before {
+    content: "";
+    position: absolute;
+    width: 115px;
+    height: 140px;
+    background-image: url("../img/user.png");
+    margin-left: -155px;
+}
+main section dl {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+main section dl dt {
+    position: absolute;
+    margin-left: -110px;
+}
+main section dl dd span {
+    display: inline-block;
+    vertical-align: middle;
+}
+main section dl dd span:first-child {
+    position: absolute;
+    margin-left: -86px;
+    margin-top: 25px;
+}
+main section dl dd span.nular {
+    display: inline-block;
+    background-color: #B0E9F5;
+    width: 50px;
+    height: 60px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+main section dl dd b.secDate {
+    font-size: 28px;
+    color: #b1b1b1;
+    font-weight: normal;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 25px;
+}
+main section dl dd p.content {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #bcbcbc;
+    margin-right: 20px;
+}
+main section dl dd img {
+    display: block;
+    width: 698px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+main section dl dd a.like {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #bdbdbd;
+}
+main section dl dd a.like:before {
+    content: '';
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    background: url("../img/like.png");
+    margin-left: -20px;
+    margin-top: -5px;
+}
+main section dl dd a.comment {
+    margin-left: 60px;
+    color: #bdbdbd;
+}
+main section dl dd a.comment:before {
+    content: '';
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    background: url("../img/comment.png");
+    margin-left: -20px;
+    margin-top: 15px;
+}
+main section dl dd p.verylike {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    color: #bdbdbd;
+}
+main section article {
+    margin-bottom: 30px;
+}
+main section article i {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    border: 5px solid #cff5f9;
+    background-color: #eee;
+    margin-left: -52px;
+    z-index: 100;
+    margin-top: 15px;
+}
+main section article:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: -15px;
+    margin-top: 10px;
+    background-color: #ddd;
+    z-index: -1000;
+}
+footer {
+    margin-top: 70px;
+}
+footer a {
+    color: #fff;
+}
+footer div.container {
+    background-color: #5aaaaa;
+    opacity: .5;
+}
+footer div.container div.up ul {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+footer div.container div.up ul li {
+    padding-right: 8px;
+}
+footer div.container div.up ul li:not(:last-child):after {
+    content: "|";
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+footer div.container div.mid {
+    font-size: 14px;
+}
+footer div.container div.mid ul li {
+    padding: 0;
+    color: #fff;
+}
+footer div.container div.down {
+    font-size: 13px;
+}
+footer div.container div.down ul li {
+    color: #fff;
+    padding: 0;
+}
+footer div.container div.down ul li:last-child:before {
+    content: "|";
+    color: #fff;
+    padding: 0 10px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    nav div.container form {
+        display: none;
+    }
+    nav div.container ul {
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 992px) {
+    nav div.container ul li {
+        margin-right: 20px;
+    }
+    nav div.container ul li i {
+        display: inline-block;
+        background-image: url("../img/icon1.png");
+        width: 25px;
+        height: 25px;
+        margin-right: -15px;
+    }
+    nav div.container ul li.seven {
+        display: none;
+    }
+    nav div.container ul li.eight {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 993px) {
+    nav div.container ul li {
+        margin-right: 20px;
+    }
+    nav div.container ul li i {
+        display: inline-block;
+        background-image: url("../img/icon1.png");
+        width: 25px;
+        height: 25px;
+        margin-right: -15px;
+    }
+    nav div.container ul li.seven {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 994px) and (max-width: 1200px) {
+    nav div.container ul li.eight {
+        display: none;
+    }
+}
+@media (min-width: 1201px) {
+    main section {
+        margin-left: 160px;
+    }
+    main section dl dd span.nular {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    main section dl dd p.content {
+        margin-left: 60px;
+    }
+    main section dl dd img {
+        margin-left: 60px;
+        width: 780px;
+    }
+    main section dl dd a.like {
+        margin-left: 80px;
+    }
+    main section:before {
+        background-image: url("../img/user.png");
+        /*left:173px;*/
+    }
+}

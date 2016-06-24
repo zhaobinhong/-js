@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>QQ空间时光轴</title>
+</head>
+<body>
+<template>
+    <article><i></i>
+        <span class="nular">{{lunar}}</span><b class="secDate">{{date}}</b>
+        <p class="content">"{{content}}"</p>{{img}}
+        <a href="#" title="赞" class="like">（{{like}}人）已赞</a>
+        <a href="#" title="评论" class="comment">（{{comment}}）人已评论</a>
+        <p class="verylike">{{veryLike}}人觉得很赞</p>
+    </article>
+</template>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="logo"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav">
+                <li class=" one"><i class="ui-center"></i><a href="#">个人中心</a></li>
+                <li class="two"><i class="ui-home"></i><a href="#">我的主页</a></li>
+                <li class="three"><i class="ui-friends"></i><a href="#">好友</a></li>
+                <li class="four"><i class="ui-apply"></i><a href="#">应用</a></li>
+                <li class="five"><i class="ui-dress"></i><a href="#">装扮</a></li>
+                <li class="six"><i class="ui-music"></i><a href="#" class="music-active"></a></li>
+                <li class="seven"> <input type="text" class="form-control" placeholder="用户/应用/动态"><span class="search"></span></li>
+                <li class="eight"><img src="img/touxiang.png" alt="">&nbsp;&nbsp;用&nbsp;户&nbsp;名&nbsp;~&nbsp;~</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <div class="container">
+        <aside></aside>
+        <section></section>
+    </div>
+
+</main>
+<footer>
+    <div class="container">
+        <div class="row up">
+            <ul class="list-inline text-center">
+                <li>空间手机版</li>
+                <li>黄钻贵族</li>
+                <li>官方Qzone</li>
+                <li>QQ互联</li>
+                <li>认证服务</li>
+                <li>腾讯博客</li>
+                <li>QQ空间服务协议</li>
+                <li>Complaint Guidelines</li>
+                <li>粤网文献</li>
+            </ul>
+        </div>
+        <div class="row mid">
+            <ul class="list-inline text-center">
+                <li>适用浏览器：360、FireFox、Chrome、Opera、傲游、搜狗、世界之窗. 不支持Safari、IE8及以下浏览器。</li>
+                <li><p>来源：<a href="https://github.com/zhaobinhong/-js" target="_blank">zhaobinhong</a></p></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/GetLunarDay.js"></script>
+<script src="js/index.js"></script>
+</html>
