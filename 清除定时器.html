@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+
+    </title>
+</head>
+<body>
+<div id="hint" style="height:100px;display: none;background-color: #1f90b4">
+
+</div>
+<button onclick="showD()">显示</button>
+<script type="text/javascript">
+    var timer;
+
+
+        function showD() {
+            if(timer){
+                clearTimeout(timer);
+                console.log(timer);
+            }
+            var hint = document.getElementById("hint");
+            hint.style.display = "block";
+            timer = window.setTimeout(function n(){hint.style.display = 'none';},5000);
+        }
+
+</script>
+</body>
+</html>
