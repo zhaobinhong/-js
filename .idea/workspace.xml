@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a35c3b-9dcb-469e-9ff5-73ba4f8af752" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几秒后跳转/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几秒后跳转/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/工作流程/css/ystep.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/工作流程/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/工作流程/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/工作流程/js/ystep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动端日期插件/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动端日期插件/zepto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动端日期插件/zepto.mdatetimer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动端日期插件/zepto.mdatetimer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/放大镜/index.html" afterPath="$PROJECT_DIR$/放大镜/index.html" />
-    </list>
+    <list default="true" id="68a35c3b-9dcb-469e-9ff5-73ba4f8af752" name="Default" comment="" />
     <ignored path="探索权威指南.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -289,9 +275,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13856691" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13856691" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
