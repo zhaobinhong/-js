@@ -27,10 +27,10 @@
             <state vertical-scroll-proportion="-2.6612904">
               <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
-                <marker date="1466995795310" expanded="true" signature="86:269" placeholder="..." />
-                <marker date="1466995795310" expanded="true" signature="126:155" placeholder="{...}" />
-                <marker date="1466995795310" expanded="true" signature="177:210" placeholder="{...}" />
-                <marker date="1466995795310" expanded="true" signature="237:262" placeholder="{...}" />
+                <marker date="1467007987694" expanded="true" signature="86:269" placeholder="..." />
+                <marker date="1467007987694" expanded="true" signature="126:155" placeholder="{...}" />
+                <marker date="1467007987694" expanded="true" signature="177:210" placeholder="{...}" />
+                <marker date="1467007987694" expanded="true" signature="237:262" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/移动端日期插件/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83990717">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.49303943">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -113,6 +113,7 @@
         <option value="$PROJECT_DIR$/移动端事件插件/zepto.js" />
         <option value="$PROJECT_DIR$/移动端事件插件/zepto.mdatetimer.js" />
         <option value="$PROJECT_DIR$/移动端事件插件/index.html" />
+        <option value="$PROJECT_DIR$/移动端日期插件/index.html" />
       </list>
     </option>
   </component>
@@ -707,7 +708,7 @@
         <state vertical-scroll-proportion="0.9485459">
           <caret line="684" column="11" selection-start-line="684" selection-start-column="11" selection-end-line="684" selection-end-column="11" />
           <folding>
-            <marker date="1466994022105" expanded="true" signature="17351:17359" placeholder="..." />
+            <marker date="1467007987729" expanded="true" signature="17351:17359" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -735,10 +736,10 @@
         <state vertical-scroll-proportion="-2.6612904">
           <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <marker date="1466995795310" expanded="true" signature="86:269" placeholder="..." />
-            <marker date="1466995795310" expanded="true" signature="126:155" placeholder="{...}" />
-            <marker date="1466995795310" expanded="true" signature="177:210" placeholder="{...}" />
-            <marker date="1466995795310" expanded="true" signature="237:262" placeholder="{...}" />
+            <marker date="1467007987694" expanded="true" signature="86:269" placeholder="..." />
+            <marker date="1467007987694" expanded="true" signature="126:155" placeholder="{...}" />
+            <marker date="1467007987694" expanded="true" signature="177:210" placeholder="{...}" />
+            <marker date="1467007987694" expanded="true" signature="237:262" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -777,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/移动端日期插件/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83990717">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.49303943">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>
