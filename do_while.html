@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>do/while</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    //至少得循环一次
+    function printArray(a) {
+        var len = a.length, i = 0;
+        if (len == 0) {
+            console.log("Empty Array");
+        } else {
+            do {
+                console.log(a[i]);
+            } while (++i < len);
+        }
+    }
+    printArray([1])
+</script>
+</body>
+</html>

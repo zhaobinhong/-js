@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eval</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    /*
+     eval 将字符串当做javascript来解析
+     eval("var a = 1;") 声明了一个局部变量
+     */
+
+    var geval = eval;
+    var x = "global", y = "global";
+    function f() {
+        var x = "local";
+        eval("x += 'changed';");//直接修改局部变量 x 的值 ==> localchanged global
+        return x;
+    }
+    function g() {
+        var y = "local";
+        geval("y += 'changed';");//更改的是全局的 y  ==> local globalchanged
+        return y;
+    }
+    console.log(f(), x);
+    console.log(g(), y);
+
+    //严格模式下eval定位保留字 且不能在全局作用域定义函数和变量
+
+
+    /*
+     switch (n){
+     case 1:
+     break;
+     case 2:
+     break;
+     }
+     */
+
+</script>
+</body>
+</html>
