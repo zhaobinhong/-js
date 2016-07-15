@@ -13,3 +13,4 @@
 
 ![表情评论](http://upload-images.jianshu.io/upload_images/1248565-00fe4730098a9433.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![fnRunOnce](http://upload-images.jianshu.io/upload_images/1248565-51bbcf978ad0a49b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
