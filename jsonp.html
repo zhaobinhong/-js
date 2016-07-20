@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSONP 实例</title>
+</head>
+<body>
+
+<button id="btn">点击</button>
+<div id="divCustomers"></div>
+<script type="text/javascript">
+
+
+    var json = [
+        {
+            "name": "name1"
+        },
+        {
+            "name2": "name3"
+        }
+    ];
+
+
+    function callbackFunction(json) {
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            var html = '<ul>';
+            for (var i = 0; i < json.length; i++) {
+                html += '<li>' + json[i] + '</li>';
+            }
+            html += '</ul>';
+            document.getElementById('divCustomers').innerHTML = html;
+        }
+
+    }
+
+
+</script>
+<script type="text/javascript" src="http://www.runoob.com/try/ajax/jsonp.php?jsoncallback=callbackFunction"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    var data = [
+        {
+            "name": "name1"
+        },
+        {
+            "name2": "name3"
+        }
+    ], url = "http://10.7.7.90:8080/WebApplication1/Servlet";
+
+
+    $.getJSON(url,data, function (data) {
+
+        console.log(data);
+    });
+</script>
+</body>
+</html>
